@@ -228,6 +228,89 @@ const jsonData = [
         }
       ]
     }
+  },
+  {
+    id: `item6`,
+    type: 'MyButtonBlock',
+    data: {
+      title: "",
+      classNames: "col-lg-4 col-md-6 col-xs-12",
+      hideTitle: true,
+      items: [
+        {
+          text: "My Profile",
+          link: "",
+        },
+        {
+          text: "My Needs Assessment",
+          link: "",
+        }
+      ]
+    }
+  },
+  {
+    id: `item7`,
+    type: 'MyTask',
+    data: {
+      title: "",
+      classNames: "col-lg-8 col-md-12 col-xs-12",
+      hideTitle: true,
+      view_all_text: "See all",
+      items: [{
+        "serviceItemName": "Bundled 2-day - Home Search",
+        "startId": "03022024042506481917990552532",
+        "startDate": "2024-04-25T14:48:19.179Z",
+        "workflowId": "65b1dc6e742e4e0019d53cc6",
+        "workflowItemId": "cd113ec4-02cf-11ef-8c04-85da7f79feb3",
+        "taskName": "Home search 6",
+        "dueDate": "",
+        "isCompleted": true,
+        "completedDate": "",
+        "uploadedDocs": [],
+        "comments": ""
+      },
+      {
+        "serviceItemName": "Expense Management",
+        "startId": "03022024042506383888070876562",
+        "startDate": "2024-04-25T14:38:38.880Z",
+        "workflowId": "65b1dc6e742e4e0019d53cc6",
+        "workflowItemId": "732640a3-02ce-11ef-8c04-85da7f79feb3",
+        "taskName": "School search 4",
+        "dueDate": "",
+        "isCompleted": true,
+        "completedDate": "",
+        "uploadedDocs": [],
+        "comments": ""
+      },
+      {
+        "serviceItemName": "Home Search",
+        "startId": "03022024042506323763044267771",
+        "startDate": "2024-04-25T14:32:37.630Z",
+        "workflowId": "65b1dc6e742e4e0019d53cc6",
+        "workflowItemId": "9be23864-02cd-11ef-8c04-85da7f79feb3",
+        "taskName": null,
+        "dueDate": "",
+        "isCompleted": true,
+        "completedDate": "",
+        "uploadedDocs": [],
+        "comments": ""
+      },
+        ,
+      {
+        "serviceItemName": "Home Search",
+        "startId": "03022024042506364734766903793",
+        "startDate": "2024-04-25T14:36:47.347Z",
+        "workflowId": "65b1dc6e742e4e0019d53cc6",
+        "workflowItemId": "30b03eb4-02ce-11ef-8c04-85da7f79feb3",
+        "taskName": "Home search 6",
+        "dueDate": "",
+        "isCompleted": true,
+        "completedDate": "",
+        "uploadedDocs": [],
+        "comments": ""
+      }
+      ]
+    }
   }
 ]
 

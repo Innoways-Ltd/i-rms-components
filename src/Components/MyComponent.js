@@ -6,10 +6,12 @@ import MyDocuments from './MyDocuments'
 import MoveIcon from '../assets/move.png'
 import '../assets/style.css'
 import MyProgress from './MyProgress'
+import MyButtonBlock from './MyButtonBlock'
+import MyTask from './MyTask'
 
 export default function MyComponent({ provided, item }) {
   const CardLayout = (props) => {
-    return <Card className="dashboard-card">
+    return <Card className={`dashboard-card ${item?.type == "MyButtonBlock" && "buttons-block"}`}>
       <div
         className="item-drag-button"
         {...provided.dragHandleProps}
@@ -17,7 +19,7 @@ export default function MyComponent({ provided, item }) {
         <img src={MoveIcon} />
       </div>
       <div className="card-item-block">
-        <CardTitle className='main-title-box'>{item?.data?.title}</CardTitle>
+        {!item?.data?.hideTitle && <CardTitle className='main-title-box'>{item?.data?.title}</CardTitle>}
         {props.children}
       </div>
     </Card>
@@ -31,7 +33,10 @@ export default function MyComponent({ provided, item }) {
       return <CardLayout><MyDocuments item={item}></MyDocuments></CardLayout>
     case "MyProgress":
       return <CardLayout><MyProgress item={item}></MyProgress></CardLayout>
-
+    case "MyButtonBlock":
+      return <CardLayout><MyButtonBlock item={item}></MyButtonBlock></CardLayout>
+    case "MyTask":
+      return <CardLayout><MyTask item={item}></MyTask></CardLayout>
 
     default:
       return <CardLayout><p>Unsupported Component</p></CardLayout>
