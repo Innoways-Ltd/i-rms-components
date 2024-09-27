@@ -40,7 +40,6 @@ export default function MyComponent({ provided, item }) {
       return <CardLayout><MyButtonBlock item={item}></MyButtonBlock></CardLayout>
     case "MyTask":
       return <CardLayout><MyTask item={item}></MyTask></CardLayout>
-
     case "HelpDesk":
       return <CardLayout><HelpDesk item={item}></HelpDesk></CardLayout>
     case "HomeQuest":

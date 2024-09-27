@@ -10,14 +10,46 @@ const jsonData = [
   //     classNames: "col-4"
   //   },
   // },
-  // {
-  //   id: `item2`,
-  //   type: 'MyVideos',
-  //   data: {
-  //     title: "My Video Componen2",
-  //     classNames: "col-8"
-  //   },
-  // },
+  {
+    id: `item2`,
+    type: 'MyVideos',
+    data: {
+      title: "My Videos",
+      classNames: "col-8",
+      data: [
+        {
+          videoName: "Cannot play a",
+          img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
+          videoType: "Link",
+          preview: "https://youtu.be/C7c-C6DB5jk?si=LbbjJtLoGuien7Qj"
+        },
+        {
+          videoName: "Cannot play",
+          img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
+          videoType: "Link",
+          preview: "https://youtu.be/bQYxKMBq3Ts?si=JpidJnikItl-m1-Y"
+        },
+        {
+          videoName: "Watch",
+          img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
+          videoType: "Link",
+          preview: "https://www.youtube.com/watch?v=417gVAZneBI"
+        },
+        {
+          videoName: "New video",
+          img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
+          videoType: "Link",
+          preview: "https://youtu.be/C7c-C6DB5jk?si=LbbjJtLoGuien7Qj"
+        },
+        {
+          videoName: "New video",
+          img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
+          videoType: "Link",
+          preview: "https://youtu.be/C7c-C6DB5jk?si=LbbjJtLoGuien7Qj"
+        }
+      ]
+    },
+  },
   {
     id: `item3`,
     type: 'MySurvey',
