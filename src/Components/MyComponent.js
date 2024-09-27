@@ -3,11 +3,13 @@ import { Card, CardTitle } from 'reactstrap'
 import MyVideos from './MyVideos'
 import MySurvey from './MySurvey'
 import MyDocuments from './MyDocuments'
+import HomeQuest from "./homeQuest"
 import MoveIcon from '../assets/move.png'
-import '../assets/style.css'
 import MyProgress from './MyProgress'
 import MyButtonBlock from './MyButtonBlock'
 import MyTask from './MyTask'
+import HelpDesk from './HelpDesk'
+import '../assets/style.css'
 
 export default function MyComponent({ provided, item }) {
   const CardLayout = (props) => {
@@ -38,6 +40,10 @@ export default function MyComponent({ provided, item }) {
     case "MyTask":
       return <CardLayout><MyTask item={item}></MyTask></CardLayout>
 
+    case "HelpDesk":
+      return <CardLayout><HelpDesk item={item}></HelpDesk></CardLayout>
+    case "HomeQuest":
+      return <CardLayout><HomeQuest item={item}></HomeQuest></CardLayout>
     default:
       return <CardLayout><p>Unsupported Component</p></CardLayout>
   }

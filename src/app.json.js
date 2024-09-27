@@ -1,22 +1,22 @@
-import { AiOutlineFilePdf, AiTwotoneDelete, AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineFilePdf, AiTwotoneDelete, AiOutlineDownload, AiOutlineMessage, AiOutlineMail } from "react-icons/ai";
 
 const jsonData = [
-  {
-    id: `item1`,
-    type: 'MyVideos',
-    data: {
-      title: "My Video Component",
-      classNames: "col-4"
-    },
-  },
-  {
-    id: `item2`,
-    type: 'MyVideos',
-    data: {
-      title: "My Video Componen2",
-      classNames: "col-8"
-    },
-  },
+  // {
+  //   id: `item1`,
+  //   type: 'MyVideos',
+  //   data: {
+  //     title: "My Video Component",
+  //     classNames: "col-4"
+  //   },
+  // },
+  // {
+  //   id: `item2`,
+  //   type: 'MyVideos',
+  //   data: {
+  //     title: "My Video Componen2",
+  //     classNames: "col-8"
+  //   },
+  // },
   {
     id: `item3`,
     type: 'MySurvey',
@@ -63,7 +63,7 @@ const jsonData = [
     },
   },
   {
-    id: 'item5',
+    id: '7',
     type: 'MyDocuments',
     data: {
       title: "Upload My Documents",
@@ -97,26 +97,6 @@ const jsonData = [
           size: "2.54 MB",
           fileIcon: <AiOutlineFilePdf color="red" size={24} />,
           deleteIcon: <AiTwotoneDelete size={20} color="red"></AiTwotoneDelete>,
-          downloadIcon: <AiOutlineDownload size={20} />,
-          deleteAction: (id) => { },
-          downloadAction: (id) => { }
-        },
-        {
-          title: "ERES 特殊字段.pptx",
-          date: "18-Jun-2024",
-          size: "2.54 MB",
-          fileIcon: <AiOutlineFilePdf color="red" size={24} />,
-          deleteIcon: <AiTwotoneDelete size={20}></AiTwotoneDelete>,
-          downloadIcon: <AiOutlineDownload size={20} />,
-          deleteAction: (id) => { },
-          downloadAction: (id) => { }
-        },
-        {
-          title: "ERES 特殊字段.pptx",
-          date: "18-Jun-2024",
-          size: "2.54 MB",
-          fileIcon: <AiOutlineFilePdf color="red" size={24} />,
-          deleteIcon: <AiTwotoneDelete size={20}></AiTwotoneDelete>,
           downloadIcon: <AiOutlineDownload size={20} />,
           deleteAction: (id) => { },
           downloadAction: (id) => { }
@@ -230,7 +210,71 @@ const jsonData = [
     }
   },
   {
-    id: `item6`,
+    id: `item7`,
+    type: 'HelpDesk',
+    data: {
+      title: "Help Desk",
+      classNames: "col-lg-4 col-md-6 col-xs-12",
+      messageIcon: <AiOutlineMessage size={24} />,
+      emailIcon: <AiOutlineMail size={24} />,
+      items: [
+        {
+          avatar: "https://a4aportaldiag.blob.core.windows.net/gima/irmsdev2-dev/usermaintenance/2f456c8f-ca90-4f6b-3d6c-9bf08cc75daa.jpg",
+          title: "Cherry Consultant",
+          subTitile: "Consultant"
+        },
+        {
+          avatar: "https://a4aportaldiag.blob.core.windows.net/gima/irmsdev2-dev/usermaintenance/5a353150-ab33-4043-33de-dcbc3f4b03c9.jpeg",
+          title: "John",
+          subTitile: "Consultant"
+        },
+        {
+          avatar: "",
+          title: "Cherry Consultant",
+          subTitile: ""
+        },
+        {
+          avatar: "",
+          title: "Logan Lee",
+          subTitile: "Tester"
+        }
+      ]
+    }
+  },
+  {
+    id: 'item6',
+    type: 'HomeQuest',
+    data: {
+      title: "Home Quest",
+      classNames: "col-8",
+      view_all_text: "See all",
+      view_all_link: "",
+      items: [
+        {
+          webName: "Fotocasa",
+          url: "https://www.fotocasa.es/en",
+          detail: "Find all the best properties and houses for sale in Spain on fotocasa. We provide the best selection of Spain Real Estate."
+        },
+        {
+          webName: "Fundata",
+          url: "https://www.funda.nl/",
+          detail: "Use funda to find the latest properties to rent in Netherlands.  Search for houses, flats and for rent in Netherlands from the top letting agents."
+        },
+        {
+          webName: "Pararius",
+          url: "https://www.pararius.com/",
+          detail: "The leading rental website in The Netherlands"
+        },
+        {
+          webName: "Pararius",
+          url: "https://www.pararius.com/",
+          detail: "Find all the best properties and houses for sale in Spain on fotocasa. We provide the best selection of Spain Real Estate."
+        }
+      ]
+    }
+  },
+  {
+    id: `item9`,
     type: 'MyButtonBlock',
     data: {
       title: "",
@@ -249,7 +293,7 @@ const jsonData = [
     }
   },
   {
-    id: `item7`,
+    id: `item10`,
     type: 'MyTask',
     data: {
       title: "",
