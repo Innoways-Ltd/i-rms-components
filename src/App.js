@@ -12,10 +12,10 @@ function App() {
   function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
-  
+
   useEffect(() => {
     const newItems = []
-    
+
     setItems(jsonData)
   }, [])
   const onDragEnd = (result) => {
@@ -30,7 +30,7 @@ function App() {
       maxWidth: '1200px',
       margin: '0 auto'
     }}>
-      <button onClick={() => dragComp.current.layout()}></button>
+      {/* <button onClick={() => dragComp.current.layout()}></button> */}
       <IRMSDashboard items={items} onDragEnd={onDragEnd} ref={dragComp}></IRMSDashboard>
     </div>
   );
