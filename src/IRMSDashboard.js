@@ -52,35 +52,35 @@ const IRMSDashboard = forwardRef((props, ref) => {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <Droppable droppableId="draggable">
-      {(provided) => (
-        <div
+        {(provided) => (
+          <div
             className="row"
             id="draggable"
             ref={provided.innerRef}
-            {...provided.droppableProps}  
-        >
-          {items?.map((item, index) => {
-            return (
-              <Draggable
-                key={item?.id}
-                draggableId={item?.id}
-                index={index}
-              >
-                {(provided) => (
-                  <div ref={provided.innerRef} {...provided.draggableProps} className={item?.data?.classNames}>
-                    <MyComponent                   
-                      provided={provided}
-                      item={item}
-                    >
-                    </MyComponent>
-                  </div>
-                )}
-              </Draggable>
-            )
-          })}
-        </div>
-      )}
-    </Droppable>
+            {...provided.droppableProps}
+          >
+            {items?.map((item, index) => {
+              return (
+                <Draggable
+                  key={item?.id}
+                  draggableId={item?.id}
+                  index={index}
+                >
+                  {(provided) => (
+                    <div ref={provided.innerRef} {...provided.draggableProps} className={`item ${item?.data?.classNames}`}>
+                      <MyComponent
+                        provided={provided}
+                        item={item}
+                      >
+                      </MyComponent>
+                    </div>
+                  )}
+                </Draggable>
+              )
+            })}
+          </div>
+        )}
+      </Droppable>
     </DragDropContext>
   )
 })

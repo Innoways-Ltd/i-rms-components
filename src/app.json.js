@@ -6,20 +6,12 @@ import Iti2 from './assets/itinerary-02.jpg'
 import Prop1 from './assets/Properties-01.jpg'
 import Prop2 from './assets/Properties-02.jpg'
 const jsonData = [
-  // {
-  //   id: `item1`,
-  //   type: 'MyVideos',
-  //   data: {
-  //     title: "My Video Component",
-  //     classNames: "col-4"
-  //   },
-  // },
   {
-    id: `item2`,
+    id: `item1`,
     type: 'MyVideos',
     data: {
       title: "My Videos",
-      classNames: "col-8",
+      classNames: "col-lg-8 col-md-6 col-xs-12",
       data: [
         {
           videoName: "Cannot play a",
@@ -55,7 +47,7 @@ const jsonData = [
     },
   },
   {
-    id: `item3`,
+    id: `item2`,
     type: 'MySurvey',
     data: {
       title: "Bonnie Survey Info",
@@ -100,7 +92,7 @@ const jsonData = [
     },
   },
   {
-    id: '7',
+    id: 'item3',
     type: 'MyDocuments',
     data: {
       title: "Upload My Documents",
@@ -247,7 +239,7 @@ const jsonData = [
     }
   },
   {
-    id: `item7`,
+    id: `item5`,
     type: 'HelpDesk',
     data: {
       title: "Help Desk",
@@ -311,7 +303,7 @@ const jsonData = [
     }
   },
   {
-    id: `item9`,
+    id: `item7`,
     type: 'MyButtonBlock',
     data: {
       title: "",
@@ -330,7 +322,7 @@ const jsonData = [
     }
   },
   {
-    id: `item10`,
+    id: `item8`,
     type: 'MyTask',
     data: {
       title: "",
@@ -394,7 +386,7 @@ const jsonData = [
     }
   },
   {
-    id: `item11`,
+    id: `item9`,
     type: 'MyGuide',
     data: {
       title: "My Guides",
@@ -416,11 +408,11 @@ const jsonData = [
     }
   },
   {
-    id: `item9`,
+    id: `item10`,
     type: 'Message',
     data: {
       title: "Sent Out My Message",
-      classNames: "col-8",
+      classNames: "col-lg-8 col-md-6 col-xs-12",
       data: [
         {
           "replyId": "03022024012406401943903259355",
@@ -734,7 +726,7 @@ const jsonData = [
     }
   },
   {
-    id: `item12`,
+    id: `item11`,
     type: 'MyItinearay',
     data: {
       title: "My Itinearay",
@@ -768,7 +760,7 @@ const jsonData = [
     }
   },
   {
-    id: `item13`,
+    id: `item12`,
     type: 'MyProperties',
     data: {
       title: "My Properties",
@@ -831,6 +823,21 @@ const jsonData = [
           "address": "Address",
           "detail": "World Class International School",
           "website": "Weblink",
+          "photos": [],
+          "imgPreview": [Prop1]
+        },
+        {
+          "preselectedId": "03022023121303501126224130189",
+          "refType": "Orientation",
+          "selectFg": true,
+          "comment": "Your comments (will be shared with your Consultant) :",
+          "placeName": "Orientation Test ",
+          "placeType": "land",
+          "latitude": "67.9988790",
+          "longitude": "30.8834500",
+          "address": "INDIA",
+          "detail": "testing",
+          "website": "https://dummy.org",
           "photos": [],
           "imgPreview": [Prop1]
         },
