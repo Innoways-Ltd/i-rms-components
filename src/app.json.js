@@ -1,6 +1,10 @@
 import { AiOutlineFilePdf, AiTwotoneDelete, AiOutlineDownload, AiOutlineMessage, AiOutlineMail } from "react-icons/ai";
 import Img1 from './assets/img-content-01.jpg'
 import Img2 from './assets/img-content-02.jpg'
+import Iti1 from './assets/itinerary-01.jpg'
+import Iti2 from './assets/itinerary-02.jpg'
+import Prop1 from './assets/Properties-01.jpg'
+import Prop2 from './assets/Properties-02.jpg'
 const jsonData = [
   // {
   //   id: `item1`,
@@ -407,6 +411,139 @@ const jsonData = [
       {
         guideType: "Guide to Renting a Property in Scotland",
         photoUrl: Img1
+      }
+      ]
+    }
+  },
+  {
+    id: `item12`,
+    type: 'MyItinearay',
+    data: {
+      title: "My Itinearay",
+      classNames: "col-lg-4 col-md-6 col-xs-12",
+      view_all_text: "See all",
+      items: [{
+        "itineraryId": "03022023013105122318772851277",
+        "itineraryName": "Itinerary Name",
+        "status": "Progress",
+        "placeCount": 3,
+        "photoDocumentId": "50ce49cb-a463-11ee-ac29-0242acac0002",
+        "imgPreview": Iti1
+      },
+      {
+        "itineraryId": "03022023013105122318772851277",
+        "itineraryName": "Itinerary Name 2",
+        "status": "Progress",
+        "placeCount": 3,
+        "photoDocumentId": "50ce49cb-a463-11ee-ac29-0242acac0002",
+        "imgPreview": Iti2
+      },
+      {
+        "itineraryId": "03022023013105122318772851277",
+        "itineraryName": "Itinerary Name",
+        "status": "Progress",
+        "placeCount": 3,
+        "photoDocumentId": "50ce49cb-a463-11ee-ac29-0242acac0002",
+        "imgPreview": Iti1
+      },
+      ]
+    }
+  },
+  {
+    id: `item13`,
+    type: 'MyProperties',
+    data: {
+      title: "My Properties",
+      classNames: "col-lg-8 col-md-6 col-xs-12",
+      view_all_text: "See all",
+      items: [{
+        "preselectedId": "03022023112703241414024874735",
+        "refType": "School",
+        "selectFg": false,
+        "comment": null,
+        "placeName": "Holly Cross Sec-4",
+        "placeType": "Secondary",
+        "latitude": "30.3275370",
+        "longitude": "78.0464480",
+        "address": "Address",
+        "detail": "World Class International School",
+        "website": "Weblink",
+        "photos": [],
+        "imgPreview": [Prop1]
+      },
+      {
+        "preselectedId": "03022023121303501126224130189",
+        "refType": "Orientation",
+        "selectFg": true,
+        "comment": "Your comments (will be shared with your Consultant) :",
+        "placeName": "Orientation Test ",
+        "placeType": "land",
+        "latitude": "67.9988790",
+        "longitude": "30.8834500",
+        "address": "INDIA",
+        "detail": "testing",
+        "website": "https://dummy.org",
+        "photos": [],
+        "imgPreview": [Prop2]
+      },
+      {
+        "preselectedId": "03022023121303501126224130189",
+        "refType": "Orientation",
+        "selectFg": true,
+        "comment": "Your comments (will be shared with your Consultant) :",
+        "placeName": "Orientation Test ",
+        "placeType": "land",
+        "latitude": "67.9988790",
+        "longitude": "30.8834500",
+        "address": "INDIA",
+        "detail": "testing",
+        "website": "https://dummy.org",
+        "photos": [],
+        "imgPreview": [Prop2]
+      }, {
+        "preselectedId": "03022023112703241414024874735",
+        "refType": "School",
+        "selectFg": false,
+        "comment": null,
+        "placeName": "Holly Cross Sec-4",
+        "placeType": "Secondary",
+        "latitude": "30.3275370",
+        "longitude": "78.0464480",
+        "address": "Address",
+        "detail": "World Class International School",
+        "website": "Weblink",
+        "photos": [],
+        "imgPreview": [Prop1]
+      },
+      {
+        "preselectedId": "03022023121303501126224130189",
+        "refType": "Orientation",
+        "selectFg": true,
+        "comment": "Your comments (will be shared with your Consultant) :",
+        "placeName": "Orientation Test ",
+        "placeType": "land",
+        "latitude": "67.9988790",
+        "longitude": "30.8834500",
+        "address": "INDIA",
+        "detail": "testing",
+        "website": "https://dummy.org",
+        "photos": [],
+        "imgPreview": [Prop1]
+      },
+      {
+        "preselectedId": "03022023121303501126224130189",
+        "refType": "Orientation",
+        "selectFg": true,
+        "comment": "Your comments (will be shared with your Consultant) :",
+        "placeName": "Orientation Test ",
+        "placeType": "land",
+        "latitude": "67.9988790",
+        "longitude": "30.8834500",
+        "address": "INDIA",
+        "detail": "testing",
+        "website": "https://dummy.org",
+        "photos": [],
+        "imgPreview": [Prop1]
       }
       ]
     }

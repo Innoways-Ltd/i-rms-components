@@ -21,7 +21,14 @@ html body {
     font-family : $font-Gotham-regular;
     background: rgb(250, 247, 233)
 }
-
+body {
+    a {
+    color: #636362;
+        &:hover {
+            color: var(--primary) !important;
+        }
+    }
+}
 .dashboard-card {
     .item-drag-button{
         display: none;
@@ -441,7 +448,7 @@ html body {
                     height: auto;
                     max-height: 260px;
                     min-height: 260px;
-                    object-fit: none;
+                    // object-fit: none;
                     @media (max-width: 1024px) {
                         min-height: 170px;
                         max-height: 170px;
