@@ -9,6 +9,7 @@ import MyProgress from './MyProgress'
 import MyButtonBlock from './MyButtonBlock'
 import MyTask from './MyTask'
 import HelpDesk from './HelpDesk'
+import MessageBlock from './messageBlock'
 import '../assets/style.css'
 
 export default function MyComponent({ provided, item }) {
@@ -43,6 +44,8 @@ export default function MyComponent({ provided, item }) {
       return <CardLayout><HelpDesk item={item}></HelpDesk></CardLayout>
     case "HomeQuest":
       return <CardLayout><HomeQuest item={item}></HomeQuest></CardLayout>
+    case "Message":
+      return <CardLayout><MessageBlock item={item}></MessageBlock></CardLayout>
     default:
       return <CardLayout><p>Unsupported Component</p></CardLayout>
   }
