@@ -3,10 +3,7 @@ import moment from 'moment'
 import RightArrow from '../assets/big-arrow-right.svg'
 
 export default function MySurvey({ item }) {
-    console.log("MySurvey → item:", item);
     let showData = item?.data?.subData?.slice(0, 5)
-    console.log("MySurvey → showData:", showData);
-
     return (
         <>
             <div className="my-guide">

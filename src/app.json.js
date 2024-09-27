@@ -123,6 +123,111 @@ const jsonData = [
         }
       ]
     }
+  },
+  {
+    id: `item4`,
+    type: 'MyProgress',
+    data: {
+      title: "",
+      classNames: "col-lg-4 col-md-6 col-xs-12",
+      view_all_text: "See all",
+      view_all_link: "",
+      hideTitle: true,
+      "originCountryName": "China",
+      "destinationCountryName": "China",
+      "totalProgress": 70,
+      "totalTasks": 6,
+      "services": [
+        {
+          "startId": "03022024042505223453658041496",
+          "sevriceName": "Bundled 1 Day - Departure",
+          "tasks": [
+            {
+              "taskName": "Departure 2",
+              "completeFg": false
+            }
+          ],
+          "progress": 10
+        },
+        {
+          "startId": "03022024042506481917990552532",
+          "sevriceName": "Bundled 2-day - Home Search",
+          "tasks": [
+            {
+              "taskName": "Home search 3",
+              "completeFg": false
+            }
+          ],
+          "progress": 20
+        },
+        {
+          "startId": "03022024042506453073672842809",
+          "sevriceName": "Car Rental",
+          "tasks": [
+            {
+              "taskName": "Departure 2",
+              "completeFg": false
+            }
+          ],
+          "progress": 30
+        },
+        {
+          "startId": "03022024042506504568326427780",
+          "sevriceName": "Departure",
+          "tasks": [
+            {
+              "taskName": "Departure 2",
+              "completeFg": false
+            }
+          ],
+          "progress": 10
+        },
+        {
+          "startId": "03022024042506340773298420601",
+          "sevriceName": "Departure ",
+          "tasks": [
+            {
+              "taskName": "Departure 2",
+              "completeFg": false
+            }
+          ],
+          "progress": 0
+        },
+        {
+          "startId": "03022023030808541137449984504",
+          "sevriceName": "Departure Service",
+          "tasks": [
+            {
+              "taskName": "Home search 1",
+              "completeFg": false
+            }
+          ],
+          "progress": 0
+        },
+        {
+          "startId": "03022024042506323763044267771",
+          "sevriceName": "Home Search",
+          "tasks": [
+            {
+              "taskName": "Home search 3",
+              "completeFg": false
+            }
+          ],
+          "progress": 0
+        },
+        {
+          "startId": "03022024042506364734766903793",
+          "sevriceName": "Home Search",
+          "tasks": [
+            {
+              "taskName": "Home search 3",
+              "completeFg": false
+            }
+          ],
+          "progress": 0
+        }
+      ]
+    }
   }
 ]
 
