@@ -148,14 +148,15 @@ export default function MyProgress({ item }) {
                     })}
                 </div>
             </div>
-            <div className="last-btn-block">
-                <div className="line-border"></div>
-                <div className="see-all-button">
-                    <a href="javascript:void(0)">
-                        <div>{item?.data?.view_all_text}</div>
-                    </a>
-                </div>
-            </div>
+            {item?.data?.services?.length > 4 &&
+                <div className="last-btn-block">
+                    <div className="line-border"></div>
+                    <div className="see-all-button">
+                        <a href="javascript:void(0)">
+                            <div>{item?.data?.view_all_text}</div>
+                        </a>
+                    </div>
+                </div>}
         </>
     )
 }

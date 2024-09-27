@@ -77,14 +77,15 @@ export default function MySurvey({ item }) {
                     </div>
                 </div>
             </div>
-            <div className="last-btn-block">
-                <div className="line-border"></div>
-                <div className="see-all-button">
-                    <a href="javascript:void(0)">
-                        <div>See all</div>
-                    </a>
-                </div>
-            </div>
+            {item?.data?.subData?.length > 5 &&
+                <div className="last-btn-block">
+                    <div className="line-border"></div>
+                    <div className="see-all-button">
+                        <a href="javascript:void(0)">
+                            <div>See all</div>
+                        </a>
+                    </div>
+                </div>}
         </>
     )
 }
