@@ -1,5 +1,6 @@
 import { AiOutlineFilePdf, AiTwotoneDelete, AiOutlineDownload, AiOutlineMessage, AiOutlineMail } from "react-icons/ai";
-
+import Img1 from './assets/img-content-01.jpg'
+import Img2 from './assets/img-content-02.jpg'
 const jsonData = [
   // {
   //   id: `item1`,
@@ -67,7 +68,7 @@ const jsonData = [
     type: 'MyDocuments',
     data: {
       title: "Upload My Documents",
-      classNames: "col-4",
+      classNames: "col-lg-4 col-md-6 col-xs-12",
       view_all_text: "See all",
       view_all_link: "",
       items: [
@@ -246,7 +247,7 @@ const jsonData = [
     type: 'HomeQuest',
     data: {
       title: "Home Quest",
-      classNames: "col-8",
+      classNames: "col-lg-8 col-md-6 col-xs-12",
       view_all_text: "See all",
       view_all_link: "",
       items: [
@@ -352,6 +353,28 @@ const jsonData = [
         "completedDate": "",
         "uploadedDocs": [],
         "comments": ""
+      }
+      ]
+    }
+  },
+  {
+    id: `item11`,
+    type: 'MyGuide',
+    data: {
+      title: "My Guides",
+      classNames: "col-lg-8 col-md-6 col-xs-12",
+      view_all_text: "See all",
+      items: [{
+        guideType: "Relocating to the UK: Need to know",
+        photoUrl: Img1
+      },
+      {
+        guideType: "Guide to Renting a Property in Scotland",
+        photoUrl: Img2
+      },
+      {
+        guideType: "Guide to Renting a Property in Scotland",
+        photoUrl: Img1
       }
       ]
     }
