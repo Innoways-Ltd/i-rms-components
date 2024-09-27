@@ -1,5 +1,7 @@
 import React, { useEffect, forwardRef, useRef, useImperativeHandle } from 'react'
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
+import "./assets/css/core.scss"
+import "./assets/css/dashboard.scss"
 import Packery from 'packery'
 import MyComponent from './Components/MyComponent'
 const IRMSDashboard = forwardRef((props, ref) => {

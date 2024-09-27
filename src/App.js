@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import Card from './Card'
 // import IRMSDashboard from 'dashboard-i-irms'
 import IRMSDashboard from "./IRMSDashboard";
-import "./assets/css/dashboard.scss"
 
 function App() {
   const classes = ['col-8 mb-4', 'col-4 mb-4']
