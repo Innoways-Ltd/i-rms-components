@@ -3,6 +3,7 @@ import { Card, CardTitle } from 'reactstrap'
 import MyVideos from './MyVideos'
 import MySurvey from './MySurvey'
 import MyDocuments from './MyDocuments'
+import HomeQuest from "./homeQuest"
 import MoveIcon from '../assets/move.png'
 import '../assets/style.css'
 
@@ -17,18 +18,20 @@ export default function MyComponent({ provided, item }) {
       </div>
       <div className="card-item-block">
         <CardTitle className='main-title-box'>{item?.data?.title}</CardTitle>
-        { props.children }
+        {props.children}
       </div>
     </Card>
   }
   switch (item.type) {
-    case "MyVideos" :
+    case "MyVideos":
       return <CardLayout><MyVideos item={item}></MyVideos></CardLayout>
-    case "MySurvey" :
-      return <CardLayout><MySurvey item={item}></MySurvey></CardLayout>  
+    case "MySurvey":
+      return <CardLayout><MySurvey item={item}></MySurvey></CardLayout>
     case "MyDocuments":
-      return <CardLayout><MyDocuments item={item}></MyDocuments></CardLayout>   
+      return <CardLayout><MyDocuments item={item}></MyDocuments></CardLayout>
+    case "HomeQuest":
+      return <CardLayout><HomeQuest item={item}></HomeQuest></CardLayout>
     default:
-      return <CardLayout><p>Unsupported Component</p></CardLayout>  
+      return <CardLayout><p>Unsupported Component</p></CardLayout>
   }
 }
