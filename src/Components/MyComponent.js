@@ -3,6 +3,7 @@ import { Card, CardTitle } from 'reactstrap'
 import MyVideos from './MyVideos'
 import MySurvey from './MySurvey'
 import MyDocuments from './MyDocuments'
+import HomeQuest from "./homeQuest"
 import MoveIcon from '../assets/move.png'
 import MyProgress from './MyProgress'
 import HelpDesk from './HelpDesk'
@@ -34,6 +35,8 @@ export default function MyComponent({ provided, item }) {
       return <CardLayout><MyProgress item={item}></MyProgress></CardLayout>
     case "HelpDesk":
       return <CardLayout><HelpDesk item={item}></HelpDesk></CardLayout>
+    case "HomeQuest":
+      return <CardLayout><HomeQuest item={item}></HomeQuest></CardLayout>
     default:
       return <CardLayout><p>Unsupported Component</p></CardLayout>
   }

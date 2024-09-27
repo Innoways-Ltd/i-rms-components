@@ -240,6 +240,38 @@ const jsonData = [
         }
       ]
     }
+  },
+  {
+    id: 'item6',
+    type: 'HomeQuest',
+    data: {
+      title: "Home Quest",
+      classNames: "col-8",
+      view_all_text: "See all",
+      view_all_link: "",
+      items: [
+        {
+          webName: "Fotocasa",
+          url: "https://www.fotocasa.es/en",
+          detail: "Find all the best properties and houses for sale in Spain on fotocasa. We provide the best selection of Spain Real Estate."
+        },
+        {
+          webName: "Fundata",
+          url: "https://www.funda.nl/",
+          detail: "Use funda to find the latest properties to rent in Netherlands.  Search for houses, flats and for rent in Netherlands from the top letting agents."
+        },
+        {
+          webName: "Pararius",
+          url: "https://www.pararius.com/",
+          detail: "The leading rental website in The Netherlands"
+        },
+        {
+          webName: "Pararius",
+          url: "https://www.pararius.com/",
+          detail: "Find all the best properties and houses for sale in Spain on fotocasa. We provide the best selection of Spain Real Estate."
+        }
+      ]
+    }
   }
 ]
 
