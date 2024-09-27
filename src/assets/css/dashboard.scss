@@ -18,7 +18,8 @@ $font-Gotham-regular: Gotham-Book;
 $font-Gotham-bold: Gotham-Bold;
 
 html body {
-    font-family : $font-Gotham-regular
+    font-family : $font-Gotham-regular;
+    background: rgb(250, 247, 233)
 }
 
 .dashboard-card {
