@@ -1,0 +1,22 @@
+.item-drag-button {
+  display: none;
+  background-color: green;
+  width: 50px;
+}
+.dashboard-card:hover > .item-drag-button {
+  display: block;
+}
+.dashboard-card {
+  padding: 14px !important;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px 0 rgba(34, 41, 47, .1)
+}
+.main-title-box {
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-weight: 700;
+  color: #363635;
+  font-family: Gotham-Book;
+  font-size: 20px;
+}
