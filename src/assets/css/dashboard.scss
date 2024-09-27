@@ -647,6 +647,147 @@ html body {
                 }
             }
         }
+        .message-right-wrapper {
+            margin-top: 1rem;
+            padding: 0rem 0.4rem 0 0;
+          
+            // min-height: 500px !important;
+            overflow-y: scroll !important;
+            &::-webkit-scrollbar {
+                width: 8px;
+            }
+        
+            &::-webkit-scrollbar-track {
+                border-radius: 8px;
+                background-color: #ddd;
+                border: 1px solid $white;
+            }
+        
+            &::-webkit-scrollbar-thumb {
+                border-radius: 8px;
+                border: 1px solid transparent;
+                background-clip: content-box;
+                background-color: $theme_color;
+            }
+            .message-all-content {
+                .message-item-box {
+                    display: flex;
+                    margin-bottom: 1rem;
+        
+                    .user-images {
+                        height: 40px;
+        
+                        .user-logo-box {
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin-left: 5px;
+                            display: inline-block;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 20px;
+                            box-shadow: 0 4px 8px 0 #22292f1f, 0 2px 4px 0 #22292f14;
+                            line-height: 42px;
+                            text-align: center;
+                            background: #f1eded !important;
+                            color: #666 !important;
+                        }
+                    }
+        
+                    .messages-wrapper-box {
+                        padding-bottom: 10px;
+                        margin: 0 0 0 15px;
+                        max-width: 80%;
+                        width: auto;
+        
+                        .consultant-name {
+                            font-size: 12px;
+                            color: #666;
+                        }
+        
+                        .message-pop-text {
+                            background: #f0eeee;
+                            margin-top: 10px;
+                            border-radius: 6px;
+                            padding: 10px;
+                            color: $black-1;
+                            // color: $white;
+                            word-wrap: break-word;
+                            width: fit-content;
+                            word-break: break-word;
+                        }
+        
+                        .message-flex-wrapper {
+                            display: flex;
+                            margin-top: 10px;
+                            align-items: center;
+        
+                            .message-time-box {
+                                font-size: 12px;
+                            }
+                        }
+        
+                    }
+                }
+        
+                .reply-item-box {
+                    justify-content: flex-end;
+        
+                    .reply-wrapper {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: end;
+                        .reply-color {
+                            background: $theme_color;
+                            word-break: break-word;
+                            color: $white !important;
+                        }
+        
+                        .message-flex-wrapper {
+                            .message-time-box {
+                                width: 100%;
+                                display: flex;
+                                justify-content: flex-end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .message-input-text {
+            margin: 10px 0 0 0;
+            display: flex;
+            position: relative;
+        
+            .input-text {
+                border: 1px solid #ddd;
+                border-radius: 50px;
+                width: 100%;
+                height: auto;
+                padding: 12px;
+                background: #f4f4f4;
+                padding-right: 60px;
+                outline: none;
+                color: $black;
+            }
+        
+            .message-send {
+                position: absolute;
+                top: 8px;
+                right: 20px;
+                cursor: pointer;
+        
+                .send-icon {
+                    width: 30px;
+                    height: 30px;
+                    path {
+                        fill: var(--primary);
+                      }
+                }
+            }
+        }
+        .messgae-dashboard-block{
+            max-height: 348px !important;
+        }
         .message-list {
             .reply-m {
                 cursor: pointer;
