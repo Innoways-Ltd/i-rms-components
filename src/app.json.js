@@ -1,22 +1,22 @@
-import { AiOutlineFilePdf, AiTwotoneDelete, AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineFilePdf, AiTwotoneDelete, AiOutlineDownload, AiOutlineMessage, AiOutlineMail } from "react-icons/ai";
 
 const jsonData = [
-  {
-    id: `item1`,
-    type: 'MyVideos',
-    data: {
-      title: "My Video Component",
-      classNames: "col-4"
-    },
-  },
-  {
-    id: `item2`,
-    type: 'MyVideos',
-    data: {
-      title: "My Video Componen2",
-      classNames: "col-8"
-    },
-  },
+  // {
+  //   id: `item1`,
+  //   type: 'MyVideos',
+  //   data: {
+  //     title: "My Video Component",
+  //     classNames: "col-4"
+  //   },
+  // },
+  // {
+  //   id: `item2`,
+  //   type: 'MyVideos',
+  //   data: {
+  //     title: "My Video Componen2",
+  //     classNames: "col-8"
+  //   },
+  // },
   {
     id: `item3`,
     type: 'MySurvey',
@@ -63,7 +63,7 @@ const jsonData = [
     },
   },
   {
-    id: 'item5',
+    id: '7',
     type: 'MyDocuments',
     data: {
       title: "Upload My Documents",
@@ -100,26 +100,143 @@ const jsonData = [
           downloadIcon: <AiOutlineDownload size={20} />,
           deleteAction: (id) => { },
           downloadAction: (id) => { }
+        }
+      ]
+    }
+  },
+  {
+    id: `item4`,
+    type: 'MyProgress',
+    data: {
+      title: "",
+      classNames: "col-lg-4 col-md-6 col-xs-12",
+      view_all_text: "See all",
+      view_all_link: "",
+      hideTitle: true,
+      "originCountryName": "China",
+      "destinationCountryName": "China",
+      "totalProgress": 70,
+      "totalTasks": 6,
+      "services": [
+        {
+          "startId": "03022024042505223453658041496",
+          "sevriceName": "Bundled 1 Day - Departure",
+          "tasks": [
+            {
+              "taskName": "Departure 2",
+              "completeFg": false
+            }
+          ],
+          "progress": 10
         },
         {
-          title: "ERES 特殊字段.pptx",
-          date: "18-Jun-2024",
-          size: "2.54 MB",
-          fileIcon: <AiOutlineFilePdf color="red" size={24} />,
-          deleteIcon: <AiTwotoneDelete size={20}></AiTwotoneDelete>,
-          downloadIcon: <AiOutlineDownload size={20} />,
-          deleteAction: (id) => { },
-          downloadAction: (id) => { }
+          "startId": "03022024042506481917990552532",
+          "sevriceName": "Bundled 2-day - Home Search",
+          "tasks": [
+            {
+              "taskName": "Home search 3",
+              "completeFg": false
+            }
+          ],
+          "progress": 20
         },
         {
-          title: "ERES 特殊字段.pptx",
-          date: "18-Jun-2024",
-          size: "2.54 MB",
-          fileIcon: <AiOutlineFilePdf color="red" size={24} />,
-          deleteIcon: <AiTwotoneDelete size={20}></AiTwotoneDelete>,
-          downloadIcon: <AiOutlineDownload size={20} />,
-          deleteAction: (id) => { },
-          downloadAction: (id) => { }
+          "startId": "03022024042506453073672842809",
+          "sevriceName": "Car Rental",
+          "tasks": [
+            {
+              "taskName": "Departure 2",
+              "completeFg": false
+            }
+          ],
+          "progress": 30
+        },
+        {
+          "startId": "03022024042506504568326427780",
+          "sevriceName": "Departure",
+          "tasks": [
+            {
+              "taskName": "Departure 2",
+              "completeFg": false
+            }
+          ],
+          "progress": 10
+        },
+        {
+          "startId": "03022024042506340773298420601",
+          "sevriceName": "Departure ",
+          "tasks": [
+            {
+              "taskName": "Departure 2",
+              "completeFg": false
+            }
+          ],
+          "progress": 0
+        },
+        {
+          "startId": "03022023030808541137449984504",
+          "sevriceName": "Departure Service",
+          "tasks": [
+            {
+              "taskName": "Home search 1",
+              "completeFg": false
+            }
+          ],
+          "progress": 0
+        },
+        {
+          "startId": "03022024042506323763044267771",
+          "sevriceName": "Home Search",
+          "tasks": [
+            {
+              "taskName": "Home search 3",
+              "completeFg": false
+            }
+          ],
+          "progress": 0
+        },
+        {
+          "startId": "03022024042506364734766903793",
+          "sevriceName": "Home Search",
+          "tasks": [
+            {
+              "taskName": "Home search 3",
+              "completeFg": false
+            }
+          ],
+          "progress": 0
+        }
+      ]
+    }
+  },
+  {
+    id: `item7`,
+    type: 'HelpDesk',
+    data: {
+      title: "Help Desk",
+      classNames: "col-lg-4 col-md-6 col-xs-12",
+      messageIcon: <AiOutlineMessage size={24} />,
+      emailIcon: <AiOutlineMail size={24} />,
+      items: [
+        {
+          avatar: "https://a4aportaldiag.blob.core.windows.net/gima/irmsdev2-dev/usermaintenance/2f456c8f-ca90-4f6b-3d6c-9bf08cc75daa.jpg",
+          title: "Cherry Consultant",
+          subTitile: "Consultant"
+        },
+        {
+          avatar: "https://a4aportaldiag.blob.core.windows.net/gima/irmsdev2-dev/usermaintenance/5a353150-ab33-4043-33de-dcbc3f4b03c9.jpeg",
+          title: "John",
+          subTitile: "Consultant"
+        },
+        {
+          avatar: "",
+          title: "Cherry Consultant",
+          subTitile: ""
+        },
+        {
+          avatar: "",
+          title: "Logan Lee",
+          subTitile: "Tester"
         }
       ]
     }
@@ -153,6 +270,89 @@ const jsonData = [
           url: "https://www.pararius.com/",
           detail: "Find all the best properties and houses for sale in Spain on fotocasa. We provide the best selection of Spain Real Estate."
         }
+      ]
+    }
+  },
+  {
+    id: `item9`,
+    type: 'MyButtonBlock',
+    data: {
+      title: "",
+      classNames: "col-lg-4 col-md-6 col-xs-12",
+      hideTitle: true,
+      items: [
+        {
+          text: "My Profile",
+          link: "",
+        },
+        {
+          text: "My Needs Assessment",
+          link: "",
+        }
+      ]
+    }
+  },
+  {
+    id: `item10`,
+    type: 'MyTask',
+    data: {
+      title: "",
+      classNames: "col-lg-8 col-md-12 col-xs-12",
+      hideTitle: true,
+      view_all_text: "See all",
+      items: [{
+        "serviceItemName": "Bundled 2-day - Home Search",
+        "startId": "03022024042506481917990552532",
+        "startDate": "2024-04-25T14:48:19.179Z",
+        "workflowId": "65b1dc6e742e4e0019d53cc6",
+        "workflowItemId": "cd113ec4-02cf-11ef-8c04-85da7f79feb3",
+        "taskName": "Home search 6",
+        "dueDate": "",
+        "isCompleted": true,
+        "completedDate": "",
+        "uploadedDocs": [],
+        "comments": ""
+      },
+      {
+        "serviceItemName": "Expense Management",
+        "startId": "03022024042506383888070876562",
+        "startDate": "2024-04-25T14:38:38.880Z",
+        "workflowId": "65b1dc6e742e4e0019d53cc6",
+        "workflowItemId": "732640a3-02ce-11ef-8c04-85da7f79feb3",
+        "taskName": "School search 4",
+        "dueDate": "",
+        "isCompleted": true,
+        "completedDate": "",
+        "uploadedDocs": [],
+        "comments": ""
+      },
+      {
+        "serviceItemName": "Home Search",
+        "startId": "03022024042506323763044267771",
+        "startDate": "2024-04-25T14:32:37.630Z",
+        "workflowId": "65b1dc6e742e4e0019d53cc6",
+        "workflowItemId": "9be23864-02cd-11ef-8c04-85da7f79feb3",
+        "taskName": null,
+        "dueDate": "",
+        "isCompleted": true,
+        "completedDate": "",
+        "uploadedDocs": [],
+        "comments": ""
+      },
+        ,
+      {
+        "serviceItemName": "Home Search",
+        "startId": "03022024042506364734766903793",
+        "startDate": "2024-04-25T14:36:47.347Z",
+        "workflowId": "65b1dc6e742e4e0019d53cc6",
+        "workflowItemId": "30b03eb4-02ce-11ef-8c04-85da7f79feb3",
+        "taskName": "Home search 6",
+        "dueDate": "",
+        "isCompleted": true,
+        "completedDate": "",
+        "uploadedDocs": [],
+        "comments": ""
+      }
       ]
     }
   }

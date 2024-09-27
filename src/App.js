@@ -30,6 +30,7 @@ function App() {
       maxWidth: '1200px',
       margin: '0 auto'
     }}>
+      <button onClick={() => dragComp.current.layout()}></button>
       <IRMSDashboard items={items} onDragEnd={onDragEnd} ref={dragComp}></IRMSDashboard>
     </div>
   );

@@ -116,7 +116,7 @@ html body {
 
         .progressbar-block {
             background: #fafafa;
-            padding: 10px 15px;
+            padding: 10px 0px;
             border-radius: 25px;
             .pro-box {
                 box-shadow: 0 0 10px 0 rgba(34, 41, 47, 0.1);
@@ -1126,4 +1126,85 @@ html body {
         margin-top: 30px;
     }
 
+}
+.conutry-wrapper{
+    display: block;
+    .dashed-wrapper {
+        /* display: flex; */
+        justify-content: center;
+        position: relative;
+        width: 76%;
+        margin: 0 auto;
+        .dashed-wrapper-svg {
+            width: 72%;
+            margin: 0 auto;
+            .plane-svg {
+                width: 25px;
+                transform: rotate(90deg);
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: -8px;
+                @media (max-width: 540px) {
+                    top: -8.5px;
+                }
+                @media (max-width: 420px) {
+                    top: -9.5px;
+                }
+                &img {
+                    vertical-align: middle;
+                }
+            }
+            .st1 {
+                fill: none;
+                stroke: #dddddd;
+                stroke-miterlimit: 10;
+                stroke-dasharray: 4.0008, 2.0004;
+            }
+            
+            .st0 {
+                fill: none;
+                stroke: #dddddd;
+                stroke-miterlimit: 10;
+                display: none;
+            }            
+        }
+    }
+    .country-name-box {
+        font-size: 14px;
+        font-weight: bold;
+        color: #666;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3px;
+        .country-name {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            gap: 2rem;
+        }
+        .moving-flex {
+            display: flex;
+            margin-top: 2px;
+            align-items: center;
+            flex-direction: column;
+            width: 50%;
+            img {
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                min-width: 45px;
+                min-height: 30px;
+                max-width: 45px;
+                max-height: 30px;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
 }
