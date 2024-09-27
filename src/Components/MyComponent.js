@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, CardTitle } from 'reactstrap'
 import MyVideos from './MyVideos'
+import MySurvey from './MySurvey'
 import MoveIcon from '../assets/move.png'
 import '../assets/style.css'
 
@@ -22,6 +23,8 @@ export default function MyComponent({ provided, item }) {
   switch (item.type) {
     case "MyVideos" :
       return <CardLayout><MyVideos item={item}></MyVideos></CardLayout>
+    case "MySurvey" :
+      return <CardLayout><MySurvey item={item}></MySurvey></CardLayout>  
     default:
       return <CardLayout><p>Unsupported Component</p></CardLayout>  
   }

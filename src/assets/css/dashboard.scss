@@ -7,13 +7,19 @@
     font-family: Gotham-Bold;
     src: url(../fonts/Gotham-Bold.woff);
 }
-
+:root { 
+    --primary: #6FC055 !important;
+}
 $theme_color :  #6FC055;
 $white : #fff;
 $black: #22292f;
 $black-1: #22292f;
 $font-Gotham-regular: Gotham-Book;
 $font-Gotham-bold: Gotham-Bold;
+
+html body {
+    font-family : $font-Gotham-regular
+}
 
 .dashboard-card {
     .item-drag-button{
@@ -1075,10 +1081,10 @@ $font-Gotham-bold: Gotham-Bold;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 700 !important;
     color: #363635;
     font-family: $font-Gotham-regular;
-    font-size: 20px;
+    font-size: 20px !important;
 
     @media (max-width: 1280px) {
         font-size: 16px;
