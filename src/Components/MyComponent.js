@@ -4,8 +4,9 @@ import MyVideos from './MyVideos'
 import MySurvey from './MySurvey'
 import MyDocuments from './MyDocuments'
 import MoveIcon from '../assets/move.png'
-import '../assets/style.css'
 import MyProgress from './MyProgress'
+import HelpDesk from './HelpDesk'
+import '../assets/style.css'
 
 export default function MyComponent({ provided, item }) {
   const CardLayout = (props) => {
@@ -31,8 +32,8 @@ export default function MyComponent({ provided, item }) {
       return <CardLayout><MyDocuments item={item}></MyDocuments></CardLayout>
     case "MyProgress":
       return <CardLayout><MyProgress item={item}></MyProgress></CardLayout>
-
-
+    case "HelpDesk":
+      return <CardLayout><HelpDesk item={item}></HelpDesk></CardLayout>
     default:
       return <CardLayout><p>Unsupported Component</p></CardLayout>
   }
