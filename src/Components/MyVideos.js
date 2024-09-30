@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
 import { FiPlay } from 'react-icons/fi'
 import {
   Player,
@@ -33,15 +32,15 @@ const VideoBlock = ({ item }) => {
                           'Link' ? (
                           <>
                             <div className="custom-upper-layer"></div>
-                            <ReactPlayer
-                              url={
-                                obj?.preview
-                              }
-                              width="100%"
-                              height="100%"
-                              controls={false}
-                              playing={false}
-                            />
+                            <iframe
+                              frameborder="0"
+                              allowfullscreen=""
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              referrerpolicy="strict-origin-when-cross-origin"
+                              title="EVERYDAY LIFE IN HONG KONG"
+                              width="100%" height="100%"
+                              src={obj?.preview}
+                              id="widget2"></iframe>
                             <div className="play-video-entry">
                               <div className="play-btn-block">
                                 <div className="play-btn-inner">

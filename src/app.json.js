@@ -17,31 +17,31 @@ const jsonData = [
           videoName: "Cannot play a",
           img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
           videoType: "Link",
-          preview: "https://youtu.be/C7c-C6DB5jk?si=LbbjJtLoGuien7Qj"
+          preview: "https://www.youtube.com/embed/C7c-C6DB5jk?autoplay=0&mute=0&controls=0&origin=http%3A%2F%2Flocalhost%3A3000&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1"
         },
         {
           videoName: "Cannot play",
           img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
           videoType: "Link",
-          preview: "https://youtu.be/bQYxKMBq3Ts?si=JpidJnikItl-m1-Y"
+          preview: "https://www.youtube.com/embed/bQYxKMBq3Ts?autoplay=0&mute=0&controls=0&origin=http%3A%2F%2Flocalhost%3A3000&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=3"
         },
         {
           videoName: "Watch",
           img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
           videoType: "Link",
-          preview: "https://www.youtube.com/watch?v=417gVAZneBI"
+          preview: "https://www.youtube.com/embed/417gVAZneBI?autoplay=0&mute=0&controls=0&origin=http%3A%2F%2Flocalhost%3A3000&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=21"
         },
         {
           videoName: "New video",
           img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
           videoType: "Link",
-          preview: "https://youtu.be/C7c-C6DB5jk?si=LbbjJtLoGuien7Qj"
+          preview: "https://www.youtube.com/embed/C7c-C6DB5jk?autoplay=0&mute=0&controls=0&origin=http%3A%2F%2Flocalhost%3A3000&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=39"
         },
         {
           videoName: "New video",
           img: "https://a4aaksdisks.file.core.windows.net/dms-dev-react-file/dms/business/irmsdev2/System/upload_1fvagrif3lonzs9c0?sv=2024-05-04&ss=f&srt=sco&se=2024-09-28T11%3A55%3A50Z&sp=r&sig=8OAxSUj60OgpR2WBygbM6jUWwuek6I8207WNENwJj3c%3D",
           videoType: "Link",
-          preview: "https://youtu.be/C7c-C6DB5jk?si=LbbjJtLoGuien7Qj"
+          preview: "https://www.youtube.com/embed/C7c-C6DB5jk?autoplay=0&mute=0&controls=0&origin=http%3A%2F%2Flocalhost%3A3000&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=39"
         }
       ]
     },
